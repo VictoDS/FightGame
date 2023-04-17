@@ -7,7 +7,7 @@ SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 600
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Brawler")
+pygame.display.set_caption("Porradaria Marxista")
 
 clock = pygame.time.Clock()
 FPS = 60
@@ -21,10 +21,10 @@ WARRIOR_DATA = [WARRIOR_SIZE]
 WIZARD_SIZE = 250
 WIZARD_DATA = [WIZARD_SIZE]
 
-bg_image = pygame.image.load("assets\\images\\background\\background.jpg").convert_alpha()
+bg_image = pygame.image.load("assets/images/background/background.jpg").convert_alpha()
 
-warrior_sheet = pygame.image.load("assets\\images\\warrior\\Sprites\\warrior.png").convert_alpha()
-wizard_sheet = pygame.image.load("assets\\images\\wizard\\Sprites\\wizard.png").convert_alpha()
+warrior_sheet = pygame.image.load("assets/images/warrior/Sprites/warrior.png").convert_alpha()
+wizard_sheet = pygame.image.load("assets/images/wizard/Sprites/wizard.png").convert_alpha()
 
 WARRIOR_ANIMATION_STEPS = [10, 8, 1, 7, 7, 3, 7]
 WIZARD_ANIMATION_STEPS = [8, 8, 1, 8, 8, 3, 7]
